@@ -1,0 +1,21 @@
+{
+  "name": "polls-api",
+  "version": "1.0.0",
+  "description": "Polls API",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon --exec node server.js"
+  },
+  "author": "Nneka",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.5",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.9.1",
+    "pug": "^2.0.0-beta11"
+  }
+}
